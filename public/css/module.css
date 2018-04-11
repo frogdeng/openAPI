@@ -154,7 +154,7 @@ a {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background: url(../img/taipei_bg.jpg) #0a93a1;
+    background: url(../img/taipei_bg.jpg) #0a93a1 center;
     background-size: cover;
     height: 75vh;
     display: -ms-flexbox;
@@ -213,7 +213,7 @@ a {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background: url(../img/taipei_bg.jpg) #0a93a1;
+    background: url(../img/taipei_bg.jpg) #0a93a1 center;
     background-size: cover;
     height: 75vh;
     display: -ms-flexbox;
@@ -2461,7 +2461,8 @@ a {
     font-size: 30px;
     color: #2faf48;
     font-weight: 700;
-    border-bottom: 2px solid #eee; }
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px; }
   .super_title:after {
     content: " ";
     display: block;
@@ -2476,7 +2477,8 @@ a {
     font-size: 35px;
     color: #2faf48;
     font-weight: 700;
-    border-bottom: 2px solid #eee; }
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px; }
   .super_title:after {
     content: " ";
     display: block;
