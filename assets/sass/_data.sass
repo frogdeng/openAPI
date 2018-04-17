@@ -1334,10 +1334,9 @@ $susy: (debug: (image: hide))
 				height: 200px
 
 		.interpretation_data
-			margin-bottom: 10px
+			margin-bottom: 20px
 			border-top: 5px solid #64b876
 			border-bottom: 4px solid #64b876
-			height: 200px
 			overflow: hidden
 
 			.l-row
@@ -1358,6 +1357,24 @@ $susy: (debug: (image: hide))
 					font-size: 16px
 					color: #555
 					line-height: 1.5
+					word-wrap: break-word
+					word-break: break-all
+					.copy_code
+						display: block
+						width: 80px
+						padding: 3px
+						font-size: 16px		
+						border: 1px solid #64b876
+						background: #FFF
+						border-radius: 3px
+						display: flex
+						flex-direction: row
+						justify-content: center
+						align-items: center
+						margin-top: 15px
+						margin-bottom: 10px
+						font-weight: 700
+
 
 		.dashboard
 			border: 1px solid #3baad2
@@ -1401,6 +1418,7 @@ $susy: (debug: (image: hide))
 			font-weight: 400
 			margin-bottom: 10px
 			margin-left: 10px
+			margin-top: 50px
 		p
 			font-size: 16px
 			color: #555
@@ -1455,10 +1473,9 @@ $susy: (debug: (image: hide))
 				height: 200px
 
 		.interpretation_data
-			margin-bottom: 10px
+			margin-bottom: 30px
 			border-top: 5px solid #64b876
 			border-bottom: 4px solid #64b876
-			height: 200px
 			overflow: hidden
 			.l-row
 				border-bottom: 1px solid #ddd
@@ -1473,11 +1490,31 @@ $susy: (debug: (image: hide))
 					color: #555
 					line-height: 1.5
 					font-weight: 800
+					word-wrap: break-word
+					word-break: break-all
 				.interpretation_item_b
 					+span(9)
 					font-size: 16px
 					color: #555
 					line-height: 1.5
+					word-wrap: break-word
+					word-break: break-all
+					.copy_code
+						display: block
+						width: 80px
+						padding: 3px
+						font-size: 16px		
+						border: 1px solid #64b876
+						background: #FFF
+						border-radius: 3px
+						display: flex
+						flex-direction: row
+						justify-content: center
+						align-items: center
+						margin-top: 15px
+						margin-bottom: 10px
+						font-weight: 700
+
 
 
 		.dashboard
@@ -1523,8 +1560,28 @@ $susy: (debug: (image: hide))
 	svg
 		margin-left: 10px
 
+.switch_btn
+	width: 200px
+	height: 40px
+	margin: 0 auto
+	background: #64b876
+	margin-bottom: 40px
+	border-radius: 3px
+	display: flex
+	justify-content: center
+	align-items: center
+	font-size: 16px
+	color: #FFF
+	cursor: pointer
+	svg
+		margin-left: 10px
+
+.h_200
+	height: 200px
 .auto_height
 	height: auto !important
+
+
 
 .require_data
 	+susy-breakpoint($breakpoint_pad, $pad)
@@ -1780,6 +1837,7 @@ $susy: (debug: (image: hide))
 				width: 50%
 				color: #666
 				padding-left: 10px
+
 			.download_btn
 				display: flex
 				justify-content: flex-start
@@ -1790,6 +1848,120 @@ $susy: (debug: (image: hide))
 					margin-right: 12px
 					color: #FFF
 					cursor: pointer
+		.require_value
+			border-bottom: 1px solid #ddd
+			padding: 10px 0
+			display: flex
+			flex-direction: column
+			justify-content: flex-start
+			align-items: flex-starts
+			.title
+				color: #666
+				padding-left: 10px
+				margin-bottom: 10px
+			.j-data
+				background: #222
+				padding: 30px
+				font-size: 16px
+				line-height: 1.7
+				border-radius: 5px
+				color: #FFF
+				font-weight: 700
+				margin: 0 5px 
+
+
+.swagger
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-top: 30px
+		padding: 20px 0
+		border-top: 2px solid #eee
+		.img_swagger
+			width: 85%
+			img
+				display: block
+				width: 200px
+	
+		.getswagger
+			width: 150px
+			height: 40px
+			background: #64b876
+			border-radius: 3px
+			display: flex
+			justify-content: center
+			align-items: center
+			font-size: 16px
+			color: #FFF
+			cursor: pointer
+			font-weight: 700
+
+
+
+
+
+.callback_parameter
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		// &:nth-last-of-type(1)
+		// 	border: none
+		// &:nth-last-of-type(odd)
+		// 	background: #f9f9f9
+		.parameter_row_title
+			padding: 15px 0
+			font-size: 16px
+			color: #555
+			line-height: 1.5
+			.parameter_span_a
+				+span(2)
+				padding: 0 10px
+					
+			.parameter_span_b
+				+span(6)
+				padding: 0 10px
+
+
+		.parameter_row
+			padding: 15px 0
+			font-size: 16px
+			color: #555
+			line-height: 1.5
+			border-bottom: 1px solid #c0c0c0
+			.parameter_span_a
+				+span(2)
+				padding: 0 10px
+					
+			.parameter_span_b
+				+span(6)
+				padding: 0 10px
+
+
+
+
+
+.green_bg
+	background: #97c3a1
+	color: #FFF !important
+	font-weight: 700
+
+
+
+
+
+
+
 
 .super_title
 	+susy-breakpoint($breakpoint_pad, $pad)
