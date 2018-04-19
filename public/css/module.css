@@ -1962,6 +1962,25 @@ a {
   .detail_contnet .user_statistics .user_statistics_chart {
     border: 1px solid #eee;
     height: 200px; }
+  .detail_contnet .api_title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 10px; }
+  .detail_contnet .api_title h4 {
+    font-size: 23px;
+    color: #64b876;
+    line-height: 1.2;
+    font-weight: 400; }
+  .detail_contnet .api_title img {
+    margin-right: 10px;
+    width: 38px; }
   .detail_contnet .interpretation_data {
     margin-bottom: 20px;
     border-top: 5px solid #64b876;
@@ -2148,6 +2167,25 @@ a {
   .detail_contnet .user_statistics .user_statistics_chart {
     border: 1px solid #eee;
     height: 200px; }
+  .detail_contnet .api_title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 10px; }
+  .detail_contnet .api_title h4 {
+    font-size: 23px;
+    color: #64b876;
+    line-height: 1.2;
+    font-weight: 400; }
+  .detail_contnet .api_title img {
+    margin-right: 10px;
+    width: 38px; }
   .detail_contnet .interpretation_data {
     margin-bottom: 30px;
     border-top: 5px solid #64b876;
@@ -2741,7 +2779,7 @@ a {
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 20px 0;
     border-top: 2px solid #eee; }
   .swagger:after {
@@ -2776,7 +2814,8 @@ a {
   .callback_parameter {
     max-width: 720px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-bottom: 30px; }
   .callback_parameter:after {
     content: " ";
     display: block;
@@ -2813,7 +2852,8 @@ a {
   .callback_parameter {
     max-width: 1440px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-bottom: 40px; }
   .callback_parameter:after {
     content: " ";
     display: block;
