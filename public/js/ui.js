@@ -69,7 +69,13 @@ $(document).ready(function(){
 
   $(".switch_btn").click(function(){
       $('.interpretation_data').toggleClass("auto_height");
+      $(this).toggleClass("arrow")
   	});
+
+
+
+
+
 
 
 var top_dis = $('.show_aside').offset().top

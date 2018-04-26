@@ -2254,9 +2254,10 @@ a {
   width: 200px;
   height: 40px;
   margin: 0 auto;
-  background: #64b876;
+  background: #FFF;
   margin-bottom: 40px;
-  border-radius: 3px;
+  border-radius: 20px;
+  border: 2px solid #c0c0c0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -2264,37 +2265,26 @@ a {
   -ms-flex-align: center;
   align-items: center;
   font-size: 16px;
-  color: #FFF;
-  cursor: pointer; }
+  color: #222;
+  cursor: pointer;
+  transition: all .3s; }
 
 .switch_btn svg {
   margin-left: 10px; }
 
-.switch_btn {
-  width: 200px;
-  height: 40px;
-  margin: 0 auto;
-  background: #64b876;
-  margin-bottom: 40px;
-  border-radius: 3px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 16px;
+.switch_btn:hover {
+  background: #222;
   color: #FFF;
-  cursor: pointer; }
-
-.switch_btn svg {
-  margin-left: 10px; }
+  border: 2px solid #222; }
 
 .h_200 {
   height: 200px; }
 
 .auto_height {
   height: auto !important; }
+
+.arrow svg {
+  transform: rotate(180deg) !important; }
 
 @media (min-width: 0) and (max-width: 990px) {
   .require_data {

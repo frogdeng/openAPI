@@ -1587,43 +1587,42 @@ $susy: (debug: (image: hide))
 			margin-bottom: 30px
 			padding: 20px
 
-.switch_btn
-	width: 200px
-	height: 40px
-	margin: 0 auto
-	background: #64b876
-	margin-bottom: 40px
-	border-radius: 3px
-	display: flex
-	justify-content: center
-	align-items: center
-	font-size: 16px
-	color: #FFF
-	cursor: pointer
-	svg
-		margin-left: 10px
+
 
 .switch_btn
 	width: 200px
 	height: 40px
 	margin: 0 auto
-	background: #64b876
+	background: #FFF
+	// background: #999
 	margin-bottom: 40px
-	border-radius: 3px
+	border-radius: 20px
+	border: 2px solid #c0c0c0
 	display: flex
 	justify-content: center
 	align-items: center
 	font-size: 16px
-	color: #FFF
+	color: #222
 	cursor: pointer
+	transition: all .3s
 	svg
 		margin-left: 10px
+	&:hover
+		background: #222
+		color: #FFF
+		border: 2px solid #222
+
+
 
 .h_200
 	height: 200px
+
 .auto_height
 	height: auto !important
 
+.arrow
+	svg
+		transform: rotate(180deg) !important
 
 
 .require_data
