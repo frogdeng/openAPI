@@ -1661,6 +1661,18 @@ a {
   background: #4a956a;
   color: #666; }
 
+.btn_style {
+  border: 1px solid #c0c0c0;
+  color: #64a956;
+  font-size: 14px;
+  font-weight: 700; }
+
+.btn_style:hover {
+  background: #4a956a;
+  color: #FFF;
+  border: 1px solid #4a956a;
+  transform: scale(1.05); }
+
 .CSV {
   background: #FF9800; }
 
@@ -2595,10 +2607,8 @@ a {
     -ms-flex-align: center;
     align-items: center; }
   .download_item .download_row .download_btn .d-download {
-    font-size: 12px;
     padding: 5px 14px;
     margin-right: 12px;
-    color: #FFF;
     cursor: pointer; }
   .download_item .require_value {
     border-bottom: 1px solid #ddd;
@@ -2660,15 +2670,11 @@ a {
     -ms-flex-align: center;
     align-items: center; }
   .download_item .download_row .download_btn .d-download {
-    font-size: 14px;
     padding: 5px 14px;
     margin-right: 12px;
-    color: #FFF;
     cursor: pointer;
     border-radius: 3px;
     transition: all .3s; }
-  .download_item .download_row .download_btn .d-download:hover {
-    transform: scale(1.05); }
   .download_item .require_value {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
@@ -2721,18 +2727,17 @@ a {
   .swagger .getswagger {
     width: 150px;
     height: 40px;
-    background: #4A956D;
     border-radius: 3px;
+    margin-right: 10px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 16px;
-    color: #FFF;
     cursor: pointer;
-    font-weight: 700; } }
+    font-weight: 700;
+    transition: all .3s; } }
 
 @media (min-width: 991px) {
   .swagger {
@@ -2760,7 +2765,6 @@ a {
   .swagger .getswagger {
     width: 150px;
     height: 40px;
-    background: #4A956D;
     border-radius: 3px;
     display: -ms-flexbox;
     display: flex;
@@ -2768,13 +2772,9 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 16px;
-    color: #FFF;
     cursor: pointer;
     font-weight: 700;
-    transition: all .3s; }
-  .swagger .getswagger:hover {
-    transform: scale(1.05); } }
+    transition: all .3s; } }
 
 @media (min-width: 0) and (max-width: 990px) {
   .callback_parameter {
