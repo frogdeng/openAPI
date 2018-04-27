@@ -1663,7 +1663,7 @@ a {
 
 .btn_style {
   border: 1px solid #c0c0c0;
-  color: #64a956;
+  color: #222;
   font-size: 14px;
   font-weight: 700; }
 
@@ -2647,6 +2647,21 @@ a {
     content: " ";
     display: block;
     clear: both; }
+  .download_item .getswagger {
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .3s;
+    margin-top: 20px; }
   .download_item .download_row {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
@@ -2707,14 +2722,12 @@ a {
     margin-right: auto;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 30px;
-    padding: 20px 0;
-    border-top: 2px solid #eee;
-    border-bottom: 4px solid #eee; }
+    margin-top: 10px;
+    padding: 0px 0 20px 0; }
   .swagger:after {
     content: " ";
     display: block;
@@ -2746,13 +2759,11 @@ a {
     margin-right: auto;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 10px;
-    padding: 20px 0;
-    border-top: 2px solid #eee; }
+    padding: 0px 0 20px 0; }
   .swagger:after {
     content: " ";
     display: block;

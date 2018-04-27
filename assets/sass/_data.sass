@@ -1083,7 +1083,7 @@ $susy: (debug: (image: hide))
 .btn_style
 	border: 1px solid #c0c0c0
 	// background: #4a956a
-	color: #64a956
+	color: #222
 	font-size: 14px
 	font-weight: 700
 	&:hover
@@ -1846,6 +1846,8 @@ $susy: (debug: (image: hide))
 		margin-bottom: 40px
 		border-top: 5px solid #64b876
 		border-bottom: 4px solid #64b876
+
+
 		.download_row
 			border-bottom: 1px solid #ddd
 			padding: 10px 0
@@ -1898,6 +1900,21 @@ $susy: (debug: (image: hide))
 		margin-bottom: 40px
 		border-top: 5px solid #64b876
 		border-bottom: 4px solid #64b876
+		.getswagger
+			width: 150px
+			height: 40px
+			// background: #4A956D
+			border-radius: 3px
+			margin-right: 10px
+			display: flex
+			justify-content: center
+			align-items: center
+			// font-size: 16px
+			// color: #FFF
+			cursor: pointer
+			font-weight: 700
+			transition: all .3s
+			margin-top: 20px
 		.download_row
 			border-bottom: 1px solid #ddd
 			padding: 10px 0
@@ -1949,12 +1966,12 @@ $susy: (debug: (image: hide))
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
 		display: flex
-		justify-content: space-between
+		justify-content: flex-end
 		align-items: center
-		margin-top: 30px
-		padding: 20px 0
-		border-top: 2px solid #eee
-		border-bottom: 4px solid #eee
+		margin-top: 10px
+		padding: 0px 0 20px 0
+		// border-top: 2px solid #eee
+		// border-bottom: 4px solid #eee
 		.img_swagger
 			width: 85%
 			img
@@ -1980,11 +1997,11 @@ $susy: (debug: (image: hide))
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
 		display: flex
-		justify-content: space-between
+		justify-content: flex-end
 		align-items: center
-		margin-top: 10px
-		padding: 20px 0
-		border-top: 2px solid #eee
+		// margin-top: 10px
+		padding: 0px 0 20px 0
+		// border-top: 2px solid #eee
 		.img_swagger
 			width: 85%
 			img
