@@ -417,11 +417,11 @@ a {
   .indside_banner .inside_input_wrapper .prompt {
     display: block;
     padding: 0 10px;
-    color: #FFF;
+    color: #888;
     height: 40px;
     width: 60%;
-    background: #4d86b3;
-    margin-left: 10px;
+    background: #fff;
+    margin-left: 0px;
     border-radius: 3px;
     display: -ms-flexbox;
     display: flex;
@@ -480,7 +480,7 @@ a {
     color: #c0c0c0; }
   .indside_banner .inside_input_wrapper .submit {
     display: block;
-    padding: 0 10px;
+    padding: 0 30px;
     color: #FFF;
     height: 40px;
     background: #3eb94c;
@@ -497,11 +497,12 @@ a {
   .indside_banner .inside_input_wrapper .prompt {
     display: block;
     padding: 0 10px;
-    color: #FFF;
+    color: #888;
     height: 40px;
-    background: #4d86b3;
+    background: #FFF;
     margin-left: 10px;
     border-radius: 3px;
+    font-size: 14px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
