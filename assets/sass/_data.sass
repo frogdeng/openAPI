@@ -57,6 +57,7 @@ $susy: (debug: (image: hide))
 				padding: 0 10px
 				color: #FFF
 				height: 40px
+				font-weight: 700
 				width: 60%
 				background: #3eb94c
 				margin-left: 0px
@@ -70,10 +71,10 @@ $susy: (debug: (image: hide))
 			.prompt
 				display: block
 				padding: 0 10px
-				color: #888
+				color: #fff
 				height: 40px
 				width: 60%
-				background: #fff
+				background: #bbb
 				margin-left: 0px
 				border-radius: 3px
 				display: flex
@@ -120,6 +121,7 @@ $susy: (debug: (image: hide))
 				color: #FFF
 				height: 40px
 				background: #3eb94c
+				font-weight: 700
 				margin-left: 10px
 				border-radius: 3px
 				display: flex
@@ -130,9 +132,9 @@ $susy: (debug: (image: hide))
 			.prompt
 				display: block
 				padding: 0 10px
-				color: #888
+				color: #fff
 				height: 40px
-				background: #FFF
+				background: #bbb
 				margin-left: 10px
 				border-radius: 3px
 				font-size: 14px
@@ -1298,14 +1300,25 @@ $susy: (debug: (image: hide))
 			display: flex
 			flex-direction: row
 			flex-wrap: wrap
-			justify-content: space-between
+			justify-content: center
 			align-items: center
 			.notice
 				display: block
+				height: 50px
+				width: 400px
 				background: #55a0da
 				color: #FFF
 				padding: 8px 15px
+				margin: 20px 0
 				border-radius: 4px
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+				p
+					margin-left: 10px
+					color: #FFF
+					font-weight: 700
 		.social_media
 			margin-top: 10px
 			margin-bottom: 40px
@@ -1455,17 +1468,32 @@ $susy: (debug: (image: hide))
 			display: flex
 			flex-direction: row
 			justify-content: space-between
-			align-items: center
+			align-items: flex-start
+			h2
+				width: 66%
 			.notice
 				display: block
+				width: 240px
 				background: #55a0da
 				color: #FFF
-				padding: 8px 15px
+				padding: 8px 20px
 				border-radius: 4px
+				margin: 0
+				margin-top: 5px
+				margin-left: 20px
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
 				transition: all .3s
 				cursor: pointer	
+				p
+					margin-left: 10px
+					color: #FFF
+					font-weight: 700
 				&:hover
 					transform: scale(1.05)
+
 
 		.social_media
 			margin-top: 10px
